@@ -1,8 +1,27 @@
 aid: carelulu
-name: Carelulu
-description: Carelulu is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: CareLuLu
+description: CareLuLu is a consumer marketplace that helps parents find and compare licensed child
+  care — home daycares, child care centers, and preschools. Families can search across roughly 200,000
+  licensed programs and filter by location, age, hours, tuition, and availability, then view photos,
+  verified parent reviews, and schedule tours or consultations. The service is positioned as an easy,
+  fast, and free way to find safe, high-quality, affordable child care, and it also lets providers
+  list and market their programs to local parents. Backed by 500 Global. Note — CareLuLu runs a
+  consumer web application (an AMP/React SPA) and an internal API host (api.carelulu.com), but does
+  not publish a public developer API, documentation, or SDKs — this profile captures its public
+  website and identity surface only.
 url: https://raw.githubusercontent.com/api-evangelist/carelulu/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://divin2sy6ce0b.cloudfront.net/images/2017-11-06/logo-header-min.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Child Care
+- Daycare
+- Preschool
+- Marketplace
+- Parenting
+- Directory
+- Reviews
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://carelulu.com
+  url: https://www.carelulu.com
+- type: SignUp
+  url: https://www.carelulu.com/signup
+- type: Login
+  url: https://www.carelulu.com/login
+- type: Support
+  url: https://www.carelulu.com/contact-us
+- type: Blog
+  url: https://www.carelulu.com/blog
+- type: TermsOfService
+  url: https://www.carelulu.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.carelulu.com/privacy-policy
+- type: DomainSecurity
+  url: security/carelulu-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
