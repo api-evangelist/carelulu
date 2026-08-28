@@ -10,6 +10,17 @@ description: CareLuLu is a consumer marketplace that helps parents find and comp
   not publish a public developer API, documentation, or SDKs — this profile captures its public
   website and identity surface only.
 url: https://raw.githubusercontent.com/api-evangelist/carelulu/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
